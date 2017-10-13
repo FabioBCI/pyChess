@@ -30,3 +30,5 @@ class camera:
 		display.blit(self.actual_image,(0,0))
 		pygame.display.update()
 
+	def delay_camera(self,miliseconds):
+		pygame.time.delay(miliseconds)
